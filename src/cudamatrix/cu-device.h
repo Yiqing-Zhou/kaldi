@@ -98,6 +98,8 @@ class CuDevice {
     return active_gpu_id_;
   }
 
+  void SetGpuId(int n);
+
   /// Returns true if either we have no GPU, or we have a GPU
   /// and it supports double precision.
   bool DoublePrecisionSupported();
