@@ -159,7 +159,7 @@ while [ $x -lt $num_iters ]; do
           nnet3-info $dir/$x.raw &
     fi
 
-    echo "Training neural net (pass $x)"
+    echo "Training neural net (pass $x of $num_iters)"
 
 
     ( # this sub-shell is so that when we "wait" below,
